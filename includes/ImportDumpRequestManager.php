@@ -398,11 +398,13 @@ class ImportDumpRequestManager {
 			'{IP}',
 			'{wiki}',
 			'{username-prefix}',
-			'{file}',
+			'{file-name}',
+			'{file-path}',
 		], [
 			MW_INSTALL_PATH,
 			$this->getTarget(),
 			$this->getInterwikiPrefix(),
+			$this->getTarget() . '-' . $this->getTimestamp() . '.xml',
 			FileBackend::splitStoragePath( $this->getFilePath() )[2],
 		], $command );
 	}
