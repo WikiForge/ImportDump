@@ -12,7 +12,6 @@ use ManualLogEntry;
 use MediaWiki\User\UserFactory;
 use Message;
 use MimeAnalyzer;
-use WikiForge\CreateWiki\RemoteWiki;
 use PermissionsError;
 use RepoGroup;
 use SpecialPage;
@@ -22,6 +21,7 @@ use UploadFromUrl;
 use UploadStash;
 use User;
 use UserBlockedError;
+use WikiForge\CreateWiki\RemoteWiki;
 use WikiMap;
 use Wikimedia\Rdbms\ILBFactory;
 

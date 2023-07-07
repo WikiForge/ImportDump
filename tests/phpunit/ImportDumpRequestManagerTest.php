@@ -3,8 +3,8 @@
 namespace WikiForge\ImportDump\Tests;
 
 use MediaWikiIntegrationTestCase;
-use WikiForge\ImportDump\ImportDumpRequestManager;
 use ReflectionClass;
+use WikiForge\ImportDump\ImportDumpRequestManager;
 use Wikimedia\Timestamp\ConvertibleTimestamp;
 
 /**

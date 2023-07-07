@@ -5,10 +5,10 @@ namespace WikiForge\ImportDump\Specials;
 use HTMLForm;
 use MediaWiki\Permissions\PermissionManager;
 use MediaWiki\User\UserFactory;
+use SpecialPage;
 use WikiForge\ImportDump\ImportDumpRequestManager;
 use WikiForge\ImportDump\ImportDumpRequestQueuePager;
 use WikiForge\ImportDump\ImportDumpRequestViewer;
-use SpecialPage;
 use Wikimedia\Rdbms\ILBFactory;
 
 class SpecialRequestImportDumpQueue extends SpecialPage {
