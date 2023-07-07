@@ -1,14 +1,14 @@
 <?php
 
-namespace Miraheze\ImportDump\Specials;
+namespace WikiForge\ImportDump\Specials;
 
 use HTMLForm;
 use MediaWiki\Permissions\PermissionManager;
 use MediaWiki\User\UserFactory;
-use Miraheze\ImportDump\ImportDumpRequestManager;
-use Miraheze\ImportDump\ImportDumpRequestQueuePager;
-use Miraheze\ImportDump\ImportDumpRequestViewer;
 use SpecialPage;
+use WikiForge\ImportDump\ImportDumpRequestManager;
+use WikiForge\ImportDump\ImportDumpRequestQueuePager;
+use WikiForge\ImportDump\ImportDumpRequestViewer;
 use Wikimedia\Rdbms\ILBFactory;
 
 class SpecialRequestImportDumpQueue extends SpecialPage {

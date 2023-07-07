@@ -1,5 +1,5 @@
 {
-	"name": "miraheze/import-dump",
+	"name": "wikiforge/import-dump",
 	"type": "mediawiki-extension",
 	"description": "A MediaWiki extension designed to automate user import requests.",
 	"homepage": "https://www.mediawiki.org/wiki/Extension:ImportDump",
@@ -10,7 +10,7 @@
 		}
 	],
 	"support": {
-		"issues": "https://phabricator.miraheze.org/tag/importdump/",
+		"issues": "https://support.wikiforge.net/tag/importdump/",
 		"wiki": "https://www.mediawiki.org/wiki/Extension:ImportDump"
 	},
 	"require": {

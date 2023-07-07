@@ -2,7 +2,7 @@
 
 use MediaWiki\Config\ServiceOptions;
 use MediaWiki\MediaWikiServices;
-use Miraheze\ImportDump\ImportDumpRequestManager;
+use WikiForge\ImportDump\ImportDumpRequestManager;
 
 return [
 	'ImportDumpRequestManager' => static function ( MediaWikiServices $services ): ImportDumpRequestManager {

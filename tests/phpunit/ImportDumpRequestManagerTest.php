@@ -1,17 +1,17 @@
 <?php
 
-namespace Miraheze\ImportDump\Tests;
+namespace WikiForge\ImportDump\Tests;
 
 use MediaWikiIntegrationTestCase;
-use Miraheze\ImportDump\ImportDumpRequestManager;
 use ReflectionClass;
+use WikiForge\ImportDump\ImportDumpRequestManager;
 use Wikimedia\Timestamp\ConvertibleTimestamp;
 
 /**
  * @group ImportDump
  * @group Database
  * @group Medium
- * @coversDefaultClass \Miraheze\ImportDump\ImportDumpRequestManager
+ * @coversDefaultClass \WikiForge\ImportDump\ImportDumpRequestManager
  */
 class ImportDumpRequestManagerTest extends MediaWikiIntegrationTestCase {
 	protected function setUp(): void {

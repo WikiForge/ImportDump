@@ -1,6 +1,6 @@
 <?php
 
-namespace Miraheze\ImportDump\Hooks\Handlers;
+namespace WikiForge\ImportDump\Hooks\Handlers;
 
 use DatabaseUpdater;
 use MediaWiki\Installer\Hook\LoadExtensionSchemaUpdatesHook;
