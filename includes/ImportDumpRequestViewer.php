@@ -1,6 +1,6 @@
 <?php
 
-namespace Miraheze\ImportDump;
+namespace WikiForge\ImportDump;
 
 use Config;
 use Html;

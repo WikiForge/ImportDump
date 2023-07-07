@@ -1,6 +1,6 @@
 <?php
 
-namespace Miraheze\ImportDump;
+namespace WikiForge\ImportDump;
 
 use Config;
 use EchoEvent;
@@ -14,7 +14,7 @@ use MediaWiki\User\UserFactory;
 use MediaWiki\User\UserGroupManagerFactory;
 use Message;
 use MessageLocalizer;
-use Miraheze\CreateWiki\RemoteWiki;
+use WikiForge\CreateWiki\RemoteWiki;
 use RepoGroup;
 use SpecialPage;
 use stdClass;

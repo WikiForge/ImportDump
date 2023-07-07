@@ -1,6 +1,6 @@
 <?php
 
-namespace Miraheze\ImportDump\Specials;
+namespace WikiForge\ImportDump\Specials;
 
 use EchoEvent;
 use ErrorPageError;
@@ -12,7 +12,7 @@ use ManualLogEntry;
 use MediaWiki\User\UserFactory;
 use Message;
 use MimeAnalyzer;
-use Miraheze\CreateWiki\RemoteWiki;
+use WikiForge\CreateWiki\RemoteWiki;
 use PermissionsError;
 use RepoGroup;
 use SpecialPage;

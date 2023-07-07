@@ -1,6 +1,6 @@
 <?php
 
-namespace Miraheze\ImportDump\Hooks\Handlers;
+namespace WikiForge\ImportDump\Hooks\Handlers;
 
 use Config;
 use ConfigFactory;
@@ -8,9 +8,9 @@ use EchoAttributeManager;
 use MediaWiki\Block\Hook\GetAllBlockActionsHook;
 use MediaWiki\Hook\LoginFormValidErrorMessagesHook;
 use MediaWiki\User\Hook\UserGetReservedNamesHook;
-use Miraheze\ImportDump\Notifications\EchoNewRequestPresentationModel;
-use Miraheze\ImportDump\Notifications\EchoRequestCommentPresentationModel;
-use Miraheze\ImportDump\Notifications\EchoRequestStatusUpdatePresentationModel;
+use WikiForge\ImportDump\Notifications\EchoNewRequestPresentationModel;
+use WikiForge\ImportDump\Notifications\EchoRequestCommentPresentationModel;
+use WikiForge\ImportDump\Notifications\EchoRequestStatusUpdatePresentationModel;
 use WikiMap;
 
 class Main implements

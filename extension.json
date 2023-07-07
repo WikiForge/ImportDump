@@ -1,7 +1,7 @@
 {
 	"name": "ImportDump",
 	"author": "Universal Omega",
-	"url": "https://github.com/miraheze/ImportDump",
+	"url": "https://github.com/WikiForge/ImportDump",
 	"descriptionmsg": "importdump-desc",
 	"namemsg": "importdump-extensionname",
 	"license-name": "GPL-3.0-or-later",
@@ -18,10 +18,10 @@
 		"ImportDumpAliases": "ImportDumpAliases.php"
 	},
 	"AutoloadNamespaces": {
-		"Miraheze\\ImportDump\\": "includes/"
+		"WikiForge\\ImportDump\\": "includes/"
 	},
 	"TestAutoloadNamespaces": {
-		"Miraheze\\ImportDump\\Tests\\": "tests/phpunit/"
+		"WikiForge\\ImportDump\\Tests\\": "tests/phpunit/"
 	},
 	"GroupPermissions": {
 		"user": {
@@ -79,7 +79,7 @@
 	},
 	"SpecialPages": {
 		"RequestImportDump": {
-			"class": "Miraheze\\ImportDump\\Specials\\SpecialRequestImportDump",
+			"class": "WikiForge\\ImportDump\\Specials\\SpecialRequestImportDump",
 			"services": [
 				"DBLoadBalancerFactory",
 				"MimeAnalyzer",
@@ -88,7 +88,7 @@
 			]
 		},
 		"RequestImportDumpQueue": {
-			"class": "Miraheze\\ImportDump\\Specials\\SpecialRequestImportDumpQueue",
+			"class": "WikiForge\\ImportDump\\Specials\\SpecialRequestImportDumpQueue",
 			"services": [
 				"DBLoadBalancerFactory",
 				"ImportDumpRequestManager",
@@ -116,10 +116,10 @@
 	},
 	"HookHandlers": {
 		"Installer": {
-			"class": "Miraheze\\ImportDump\\Hooks\\Handlers\\Installer"
+			"class": "WikiForge\\ImportDump\\Hooks\\Handlers\\Installer"
 		},
 		"Main": {
-			"class": "Miraheze\\ImportDump\\Hooks\\Handlers\\Main",
+			"class": "WikiForge\\ImportDump\\Hooks\\Handlers\\Main",
 			"services": [
 				"ConfigFactory"
 			]

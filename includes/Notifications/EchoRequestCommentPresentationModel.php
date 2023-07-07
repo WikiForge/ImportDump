@@ -1,6 +1,6 @@
 <?php
 
-namespace Miraheze\ImportDump\Notifications;
+namespace WikiForge\ImportDump\Notifications;
 
 use EchoDiscussionParser;
 use EchoEventPresentationModel;
