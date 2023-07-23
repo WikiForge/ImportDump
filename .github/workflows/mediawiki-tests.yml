@@ -17,7 +17,7 @@ jobs:
             php: 7.4
             php-docker: 74
             composer-test: false
-            experimental: false
+            experimental: true
 
           # Latest MediaWiki LTS - PHP 8.2 
           - mw: 'REL1_39'
