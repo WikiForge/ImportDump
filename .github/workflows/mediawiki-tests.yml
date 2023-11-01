@@ -8,7 +8,6 @@ on:
 
 jobs:
   call-mediawiki-tests-workflow:
-<<<<<<< HEAD
     uses: WikiForge/.github/.github/workflows/mediawiki-tests.yml@master
     strategy:
       matrix:
@@ -27,19 +26,6 @@ jobs:
             composer-test: false
             experimental: true
 
-=======
-    uses: miraheze/.github/.github/workflows/mediawiki-tests.yml@master
-    strategy:
-      matrix:
-        include:
-          # Latest Old MediaWiki stable - PHP 7.4 
-          - mw: 'REL1_39'
-            php: 7.4
-            php-docker: 74
-            composer-test: true
-            experimental: false
-
->>>>>>> upstream/master
           # Latest MediaWiki stable - PHP 7.4 
           - mw: 'REL1_40'
             php: 7.4
